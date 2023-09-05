@@ -1,0 +1,594 @@
+﻿"Issue Id","Project","Tags","Summary","Reporter","Created","Updated","Resolved","Priority","Type","State","Assignee","Sprints","Environment","Description","Votes"
+"FTJ2023-845","Functional Testing June 2023","Star","Strawberry-меню: Функция Active показывает все таски","Andrei Pomakho","15 Aug 2023 23:03","15 Aug 2023 23:03",,"Critical","Bug","Open","Unassigned","Unscheduled","Vivo Y33s Android 13 Funtouch OS 13 Global","**Pre-conditions:**
+
+1. Открыть приложение TO-DO-MVP
+2. Создать несколько задач, одну отметить выполненной
+
+
+
+**STR:**
+
+1. Тапнуть по иконке Strawberry-меню
+2. Выбрать функцию Active
+
+
+
+**ACT:**
+
+Выводится сортировка ""All TO-DOs""
+
+
+
+**EXP:**
+
+Выводится сортировка ""Active TO-DOs""","0"
+"FTJ2023-835","Functional Testing June 2023","Star","Mobile App Testing - Andrei Pamakha","Andrei Pomakho","15 Aug 2023 21:31","15 Aug 2023 23:03",,"Normal","Task","Open","Unassigned","Unscheduled","No environment",,"0"
+"FTJ2023-836","Functional Testing June 2023","Star","New TO-DO: перезапуск приложения с удалением ранее созданных задач при вводе цифр в поле Title","Andrei Pomakho","15 Aug 2023 22:15","15 Aug 2023 22:52",,"Show-stopper","Bug","Open","Unassigned","Unscheduled","Vivo Y33s Android 13 Funtouch OS 13 Global","**STR:**
+
+1. Открыть приложение TO-DO-MVP
+2. Тапнуть по иконке создания таски в правом нижнем углу
+3. Заполнить поле заголовка числами, а поле описания латиницей
+4. Тапнуть по иконке галочки в правом нижнем углу
+
+**ACT:**
+
+Перезапуск приложения с удалением ранее созданных задач
+
+
+
+**EXP:**
+
+Появляется сообщение об успешном создании таски. Происходит возврат на страницу TO-DO-List где находится созданная задача
+
+
+","0"
+"FTJ2023-837","Functional Testing June 2023","Star","New TO-DO: перезапуск приложения с удалением ранее созданных задач при вводе цифр в поле Enter your TO-DO here","Andrei Pomakho","15 Aug 2023 22:18","15 Aug 2023 22:51",,"Show-stopper","Bug","Open","Unassigned","Unscheduled","Vivo Y33s Android 13 Funtouch OS 13 Global","**STR:**
+
+1. Открыть приложение TO-DO-MVP
+2. Тапнуть по иконке создания таски в правом нижнем углу
+3. Заполнить поле заголовка латиницей, а поле описания числами
+4. Тапнуть по иконке галочки в правом нижнем углу
+
+**ACT:**
+
+Перезапуск приложения с удалением ранее созданных задач
+
+**EXP:**
+
+Появляется сообщение об успешном создании таски. Происходит возврат на страницу TO-DO-List где находится созданная задача","0"
+"FTJ2023-838","Functional Testing June 2023","Star","New TO-DO: перезапуск приложения с удалением ранее созданных задач при вводе спецсимволов в поле Title","Andrei Pomakho","15 Aug 2023 22:21","15 Aug 2023 22:51",,"Show-stopper","Bug","Open","Unassigned","Unscheduled","Vivo Y33s Android 13 Funtouch OS 13 Global","**STR:**
+
+1. Открыть приложение TO-DO-MVP
+2. Тапнуть по иконке создания таски в правом нижнем углу
+3. Заполнить поле заголовка спецсимволами
+4. Тапнуть по иконке галочки в правом нижнем углу
+
+**ACT:**
+
+Перезапуск приложения с удалением ранее созданных задач
+
+**EXP:**
+
+Появляется сообщение об успешном создании таски. Происходит возврат на страницу TO-DO-List где находится созданная задача
+
+
+","0"
+"FTJ2023-839","Functional Testing June 2023","Star","New TO-DO: перезапуск приложения с удалением ранее созданных задач при вводе спецсимволов в поле Enter your TO-DO here","Andrei Pomakho","15 Aug 2023 22:23","15 Aug 2023 22:51",,"Show-stopper","Bug","Open","Unassigned","Unscheduled","Vivo Y33s Android 13 Funtouch OS 13 Global","**STR:**
+
+1. Открыть приложение TO-DO-MVP
+2. Тапнуть по иконке создания таски в правом нижнем углу
+3. Заполнить поле описания спецсимволами
+4. Тапнуть по иконке галочки в правом нижнем углу
+
+**ACT:**
+
+Перезапуск приложения с удалением ранее созданных задач
+
+**EXP:**
+
+Появляется сообщение об успешном создании таски. Происходит возврат на страницу TO-DO-List где находится созданная задача","0"
+"FTJ2023-840","Functional Testing June 2023","Star","New TO-DO: нет возможности вернуться назад при нажатии системной кнопки назад или стрелочки на AppBar","Andrei Pomakho","15 Aug 2023 22:28","15 Aug 2023 22:51",,"Critical","Bug","Open","Unassigned","Unscheduled","Vivo Y33s Android 13 Funtouch OS 13 Global","**STR:**
+
+1. Открыть приложение TO-DO-MVP
+2. Тапнуть по иконке создания таски в правом нижнем углу
+3. Тапнуть по иконке стрелки назад в AppBar
+
+**ACT:** нет возможности вернуться назад при нажатии системной кнопки назад или стрелочки на AppBar
+
+
+
+**EXP:** При наличии заполненных полей появляется сообщение ""All unsaved information will be lost. Do you want to proceed?"" с возможностью подтвердить отмену создания таски.
+Возврат на страницу TO-DO-List","0"
+"FTJ2023-841","Functional Testing June 2023","Star","New TO-DO: создание таски с пустыми полями приводит к перезапуску приложения с удалением ранее созданных задач","Andrei Pomakho","15 Aug 2023 22:33","15 Aug 2023 22:50",,"Show-stopper","Bug","Open","Unassigned","Unscheduled","Vivo Y33s Android 13 Funtouch OS 13 Global","**STR:**
+
+1. Открыть приложение TO-DO-MVP
+2. Тапнуть по иконке создания таски в правом нижнем углу
+3. Тапнуть по иконке галочки в правом нижнем углу
+
+**ACT:**
+
+Перезапуск приложения с удалением ранее созданных задач
+
+**EXP:**
+
+Появляется сообщение об ошибке говорящее о необходимости заполнения хотя бы одного поля","0"
+"FTJ2023-842","Functional Testing June 2023","Star","New TO-DO: перезапуск приложения с удалением ранее созданных задач при вводе большого кол-ва символов в любое из полей","Andrei Pomakho","15 Aug 2023 22:37","15 Aug 2023 22:50",,"Show-stopper","Bug","Open","Unassigned","Unscheduled","Vivo Y33s Android 13 Funtouch OS 13 Global","**STR:**
+
+1. Открыть приложение TO-DO-MVP
+2. Тапнуть по иконке создания таски в правом нижнем углу
+3. Заполнить одно из полей более чем 50-ю символами
+4. Тапнуть по иконке галочки в правом нижнем углу
+
+**ACT:**
+
+Перезапуск приложения с удалением ранее созданных задач
+
+**EXP:**
+
+Появляется сообщение об успешном создании таски. Происходит возврат на страницу TO-DO-List где находится созданная задача","0"
+"FTJ2023-843","Functional Testing June 2023","Star","New TO-DO: перезапуск приложения с удалением ранее созданных задач при вставке текста из буфера обмена в любое поле","Andrei Pomakho","15 Aug 2023 22:42","15 Aug 2023 22:50",,"Show-stopper","Bug","Open","Unassigned","Unscheduled","No environment","**STR:**
+
+1. Открыть приложение TO-DO-MVP
+2. Тапнуть по иконке создания таски в правом нижнем углу
+3. Вставить текст из буфера обмена в любое из полей
+4. Тапнуть по иконке галочки в правом нижнем углу
+
+**ACT:**
+
+Перезапуск приложения с удалением ранее созданных задач
+
+**EXP:**
+
+Появляется сообщение об успешном создании таски. Происходит возврат на страницу TO-DO-List где находится созданная задача","0"
+"FTJ2023-844","Functional Testing June 2023","Star","Edite TO-DO: не работает функция изменения таски","Andrei Pomakho","15 Aug 2023 22:49","15 Aug 2023 22:49",,"Critical","Bug","Open","Unassigned","Unscheduled","Vivo Y33s Android 13 Funtouch OS 13 Global","**STR:**
+
+1. Открыть приложение TO-DO-MVP
+2. Тапнуть по иконке создания таски в правом нижнем углу
+3. Заполнить поле заголовка числами, а поле описания латиницей
+4. Тапнуть по иконке галочки в правом нижнем углу
+5. Тапнуть по созданной таске
+6. Тапнуть по иконке карандаша в левом нижнем углу
+7. Изменить любое поле
+8. Тапнуть по иконке галочки в правом нижнем углу
+9. Тапнуть по измененной таске
+
+
+
+**ACT:** таска не изменилась
+
+
+
+**EXP:** таска изменена
+
+
+
+
+","0"
+"FTJ2023-656","Functional Testing June 2023","Star","Checkout: Позволяется совершение покупки товара с помощью карты c недостатком средств","Andrei Pomakho","29 Jul 2023 00:48","29 Jul 2023 00:49",,"Critical","Bug","Open","Unassigned","Unscheduled","Windows 11 Version 22H2 Edge 114.0.1823.67 (Official build) (64-bit)","**Pre-conditions:**
+
+Зарегистрировать пользователя на сайте <https://demowebshop.tricentis.com/>
+
+
+
+**STR:**
+
+1. Перейти на главную страницу сайта <https://demowebshop.tricentis.com>
+
+2. Открыть категорию Digital downloads и добавить в корзину товар Music 2
+
+3. Нажать кнопку Shopping Cart в шапке
+
+4. Нажать на чек-бокс I agree with the terms of service and I adhere to them unconditionally (read)
+
+5. Нажать кнопку Checkout
+
+6. Заполнить пункт Billing Address валидной информацией. После каждого пункта нажать кнопку Continue
+
+7. Заполнить поля данными:
+
+   *Select credit card: AMEX
+   Cardholder name: TEST
+   Card number: 375118435530560
+   Expiration date: 12/2025
+   Card code: 1234*
+
+   нажать Continue
+
+8. Нажать кнопку Confirm
+
+**ACT:** Открывается страница с сообщением *Your order has been successfully processed!*
+
+![](Checkout Позволяется совершение покупки с недостатком средств.png){width=70%}
+
+**EXP:** Появляется сообщение об ошибке оплаты","0"
+"FTJ2023-650","Functional Testing June 2023","Star","Web App Testing - Andrei Pamakha","Andrei Pomakho","28 Jul 2023 16:50","29 Jul 2023 00:49",,"Normal","Task","Open","Unassigned","Unscheduled","Windows 11 Version 22H2 Edge 114.0.1823.67 (Official build) (64-bit)",,"0"
+"FTJ2023-654","Functional Testing June 2023","Star","Checkout: Позволяется совершение покупки с помощью украденной банковской карты","Andrei Pomakho","29 Jul 2023 00:30","29 Jul 2023 00:49",,"Critical","Bug","Open","Unassigned","Unscheduled","Windows 11 Version 22H2 Edge 114.0.1823.67 (Official build) (64-bit)","**Pre-conditions:**
+
+Зарегистрировать пользователя на сайте <https://demowebshop.tricentis.com/>
+
+
+
+**STR:**
+
+1. Перейти на главную страницу сайта <https://demowebshop.tricentis.com>
+
+2. Открыть категорию Digital downloads и добавить в корзину товар Music 2
+
+3. Нажать кнопку Shopping Cart в шапке
+
+4. Нажать на чек-бокс I agree with the terms of service and I adhere to them unconditionally (read)
+
+5. Нажать кнопку Checkout
+
+6. Заполнить пункт Billing Address валидной информацией. После каждого пункта нажать кнопку Continue
+
+7. Выбрать метод Credit Card, нажать Continue
+
+8. Заполнить поля данными
+
+   *Select credit card: MasterCard
+   Cardholder name: TEST
+   Card number: 5538300838605560
+   Expiration date: 12/2025
+   Card code: 123*
+
+   нажать Continue
+
+9. Нажать кнопку Confirm
+
+**ACT:** Открывается страница с сообщением *Your order has been successfully processed!*
+
+![](Checkout Позволяется совершение покупки с помощью украденной карты.png){width=70%}
+
+**EXP:** Появляется сообщение об ошибке оплаты
+
+
+","0"
+"FTJ2023-655","Functional Testing June 2023","Star","Shopping cart: Не выдаётся сообщение об ошибке при вводе символов в Qty","Andrei Pomakho","29 Jul 2023 00:41","29 Jul 2023 00:41",,"Minor","Bug","Open","Unassigned","Unscheduled","No environment","**STR:**
+
+1. Перейти на сайт <https://demowebshop.tricentis.com>
+2. Открыть категорию Apparel & Shoes
+3. Нажать кнопку Add to cart под товаром [Genuine Leather Handbag with Cell Phone Holder & Many Pockets](https://demowebshop.tricentis.com/genuine-leather-handbag-with-cell-phone-holder-many-pockets)
+4. Нажать кнопку Shopping Cart в шапке
+5. Ввести символы в поле Qty и нажать Update shopping cart
+
+
+
+**ACT:** Страница обновляется с предыдущим числом Qty
+
+![](Символы в Qty.png){width=70%}
+
+**EXP:** Появляется сообщение об ошибке ""symbols are not allowed""","0"
+"FTJ2023-653","Functional Testing June 2023","Star","Shopping cart: Отсутствуют прописанные Условия использования","Andrei Pomakho","29 Jul 2023 00:17","29 Jul 2023 00:18",,"Major","Bug","Open","Unassigned","Unscheduled","Windows 11 Version 22H2. Edge 114.0.1823.67 (Official build) (64-bit)","**STR:**
+
+1. Перейти на сайт <https://demowebshop.tricentis.com>
+2. Нажать кнопку ""Add to cart"" под любым предложенным товаром
+3. Нажать кнопку Shopping Cart в шапке
+4. Нажать на слово Read в тексте чек-бокса ""I agree with the terms of service and I adhere to them unconditionally (read)""
+
+
+
+**ACT:** Отсутствуют прописанные Условия использования
+
+![](Остутствуют правила использования.png){width=70%}
+
+
+
+**EXP:** Условия использования прописаны","0"
+"FTJ2023-652","Functional Testing June 2023","Star","Improvement: Кнопки + и - для изменения количества единиц товара в корзине","Andrei Pomakho","29 Jul 2023 00:08","29 Jul 2023 00:17",,"Normal","Task","Open","Unassigned","Unscheduled","Windows 11 Version 22H2 Edge 114.0.1823.67 (Official build) (64-bit)","**STR:**
+
+1. Перейти на сайт <https://demowebshop.tricentis.com>
+2. Открыть категорию Computers
+3. Выбрать категорию Notebooks
+4. Нажать кнопку ""Add to cart"" под любым предложенным товаром
+5. Нажать кнопку Shopping Cart в шапке
+
+
+
+**ACT:** Для изменения кол-ва товара необходимо ввести число в поле Qty
+
+![](Improvement Изменение количества единиц товара в корзине.png){width=70%}
+
+**EXP:** Около поля Qty есть кнопки + и - для изменения количества единиц товара в корзине","0"
+"FTJ2023-651","Functional Testing June 2023","Star","Страница товара: отсутствует кнопка ""Add to wishlist""","Andrei Pomakho","28 Jul 2023 23:50","28 Jul 2023 23:54",,"Major","Bug","Open","Unassigned","Unscheduled","Windows 11 Version 22H2 Edge 114.0.1823.67 (Official build) (64-bit)","**STR:** 
+
+1. Перейти на сайт <https://demowebshop.tricentis.com>
+2. Выбрать категорию Books
+3. Выбрать товар ""[Computing and Internet](https://demowebshop.tricentis.com/computing-and-internet)""
+
+
+
+**ACT:** На странице есть кнопка ""Add to wishlist""
+
+![](Страница товара отсутствует кнопка Add to wishlist.png){width=346px}
+
+
+
+**EXP:** На странице находится кнопка ""Add to wishlist""","0"
+"FTJ2023-361","Functional Testing June 2023","Star","Testing Documentation - Andrei Pamakha","Andrei Pomakho","15 Jul 2023 15:52","16 Jul 2023 16:23",,"Normal","Task","Open","Unassigned","Unscheduled","Windows 11 Version 22H2. Edge 114.0.1823.67 (Official build) (64-bit)",,"0"
+"FTJ2023-395","Functional Testing June 2023","Star","Add Customer: Некорректное сообщение об ошибке при пустом поле Mobile Number","Andrei Pomakho","16 Jul 2023 16:21","16 Jul 2023 16:22",,"Minor","Bug","Open","Unassigned","Unscheduled","Windows 11 Version 22H2. Edge 114.0.1823.67 (Official build) (64-bit)","**STR:**
+
+1. Перейти на сайт <https://demo.guru99.com/telecom/billing.php>
+2. Кликнуть по кнопке Add Customer
+3. Кликнуть на поле Mobile Number
+4. Кликнуть в любом месте
+
+
+
+**ACT:**
+
+Сообщение ""Mobile no must not be blank"" под полем Mobile Number
+
+
+
+**EXP:** 
+
+Сообщение ""Mobile must not be blank"" под полем Mobile Number
+
+
+
+Согласно требованиям (Mobile Number - Обязательное поле): [Требования - Google Таблицы](https://docs.google.com/spreadsheets/d/17pDHGwkAFIrDY8UlfVdkKrw2lv6KFSYgS0cryyty1Fk/edit#gid=1827757748)
+
+
+","0"
+"FTJ2023-390","Functional Testing June 2023","Star","Add Customer: Обязательные поля в блоке Billing Address не помечены *","Andrei Pomakho","16 Jul 2023 15:40","16 Jul 2023 16:18",,"Normal","Bug","Open","Unassigned","Unscheduled","Windows 11 Version 22H2. Edge 114.0.1823.67 (Official build) (64-bit)","**STR:**
+
+1. Перейти на сайт <https://demo.guru99.com/telecom/billing.php>
+2. Кликнуть по кнопке Add Customer
+3. Найти блок полей Billing Address
+
+   
+
+**ACT:** 
+
+Все поля обязательны и не помечены \*
+
+
+
+**EXP:**
+
+Все поля обязательны и помечены \*
+
+
+
+Согласно требованиям (Страница Add Customer п.6): [Требования - Google Таблицы](https://docs.google.com/spreadsheets/d/17pDHGwkAFIrDY8UlfVdkKrw2lv6KFSYgS0cryyty1Fk/edit#gid=0)
+
+
+
+
+","0"
+"FTJ2023-394","Functional Testing June 2023","Star","Add Customer: Неверное сообщение об ошибке при вводе кириллицы в поле Last Name","Andrei Pomakho","16 Jul 2023 16:14","16 Jul 2023 16:17",,"Normal","Bug","Open","Unassigned","Unscheduled","Windows 11 Version 22H2. Edge 114.0.1823.67 (Official build) (64-bit)","**STR:**
+
+1. Перейти на сайт <https://demo.guru99.com/telecom/billing.php>
+2. Кликнуть по кнопке Add Customer
+3. Ввести кириллицу в поле Last Name
+
+**ACT:**
+
+Появление сообщения Numbers are not allowed
+
+
+
+**EXP:**
+
+Появление сообщения Cyrillic are not allowed
+
+
+
+Согласно требованиям (Last Name - Кириллица):
+
+
+","0"
+"FTJ2023-393","Functional Testing June 2023","Star","Add Customer: Неверное сообщение об ошибке при вводе кириллицы в поле First Name","Andrei Pomakho","16 Jul 2023 16:09","16 Jul 2023 16:09",,"Normal","Bug","Open","Unassigned","Unscheduled","Windows 11 Version 22H2. Edge 114.0.1823.67 (Official build) (64-bit)","**STR:**
+
+1. Перейти на сайт <https://demo.guru99.com/telecom/billing.php>
+2. Кликнуть по кнопке Add Customer
+3. Ввести кириллицу в поле First Name
+
+
+
+**ACT:** 
+
+Появление сообщения Numbers are not allowed
+
+
+
+**EXP:**
+
+Появление сообщения Cyrillic are not allowed
+
+
+
+Согласно требованиям (First Name - Кириллица): [Требования - Google Таблицы](https://docs.google.com/spreadsheets/d/17pDHGwkAFIrDY8UlfVdkKrw2lv6KFSYgS0cryyty1Fk/edit#gid=1827757748)
+
+
+","0"
+"FTJ2023-392","Functional Testing June 2023","Star","Add Customer: Кнопка Reset не обнуляет ошибки полей","Andrei Pomakho","16 Jul 2023 15:58","16 Jul 2023 15:59",,"Normal","Bug","Open","Unassigned","Unscheduled","Windows 11 Version 22H2. Edge 114.0.1823.67 (Official build) (64-bit)","**STR:**
+
+1.  Перейти на сайт <https://demo.guru99.com/telecom/billing.php>
+2. Кликнуть по кнопке Add Customer
+3. Ввести символы кириллицы в поле First Name
+4. Ввести символы кириллицы в поле Last Name
+5. Ввести символы кириллицы в поле Email
+6. Кликнуть по полю Address
+7. Ввести символы кириллицы в поле Mobile Number
+8. Нажать кнопку Reset
+
+
+
+**ACT:**
+
+Сообщения об ошибке не обнуляются
+
+
+
+**EXP:**
+
+Все заполненные значения и сообщения об ошибке обнуляются
+
+
+
+Согласно требованиям (Страница Add Customer п.8): [Требования - Google Таблицы](https://docs.google.com/spreadsheets/d/17pDHGwkAFIrDY8UlfVdkKrw2lv6KFSYgS0cryyty1Fk/edit#gid=0)","0"
+"FTJ2023-385","Functional Testing June 2023","Star","Add Customer: Поле First Name не имеет названия","Andrei Pomakho","16 Jul 2023 15:06","16 Jul 2023 15:28",,"Major","Bug","Open","Unassigned","Unscheduled","Windows 11 Version 22H2. Edge 114.0.1823.67 (Official build) (64-bit)","**STR:**
+
+1. Перейти на сайт <https://demo.guru99.com/telecom/billing.php>
+2. Кликнуть по кнопке Add Customer
+3. Найти поле First Name
+
+**ACT:**
+
+Поле First Name не имеет названия
+
+
+
+**EXP:**
+
+Поле First Name имеет название и подсказку внутри повторяющую название
+
+
+
+Согласно требованиям (Страница Add Customer п.5): [Требования - Google Таблицы](https://docs.google.com/spreadsheets/d/17pDHGwkAFIrDY8UlfVdkKrw2lv6KFSYgS0cryyty1Fk/edit#gid=0)
+
+
+
+
+","0"
+"FTJ2023-386","Functional Testing June 2023","Star","Add Customer: Поле Last Name не имеет названия","Andrei Pomakho","16 Jul 2023 15:13","16 Jul 2023 15:28",,"Major","Bug","Open","Unassigned","Unscheduled","Windows 11 Version 22H2. Edge 114.0.1823.67 (Official build) (64-bit)","**STR:**
+
+1. Перейти на сайт <https://demo.guru99.com/telecom/billing.php>
+2. Кликнуть по кнопке Add Customer
+3. Найти поле Last Name
+
+**ACT:**
+
+Поле Last Name не имеет названия
+
+
+
+**EXP:**
+
+Поле Last Name имеет название и подсказку внутри повторяющую название
+
+
+
+Согласно требованиям (Страница Add Customer п.5): [Требования - Google Таблицы](https://docs.google.com/spreadsheets/d/17pDHGwkAFIrDY8UlfVdkKrw2lv6KFSYgS0cryyty1Fk/edit#gid=0)","0"
+"FTJ2023-387","Functional Testing June 2023","Star","Add Customer: Поле Email не имеет названия","Andrei Pomakho","16 Jul 2023 15:18","16 Jul 2023 15:28",,"Major","Bug","Open","Unassigned","Unscheduled","Windows 11 Version 22H2. Edge 114.0.1823.67 (Official build) (64-bit)","**STR:**
+
+1. Перейти на сайт <https://demo.guru99.com/telecom/billing.php>
+2. Кликнуть по кнопке Add Customer
+3. Найти поле Email
+
+**ACT:**
+
+Поле Email не имеет названия
+
+
+
+**EXP:**
+
+Поле Email имеет название и подсказку внутри повторяющую название
+
+
+
+Согласно требованиям (Страница Add Customer п.5): [Требования - Google Таблицы](https://docs.google.com/spreadsheets/d/17pDHGwkAFIrDY8UlfVdkKrw2lv6KFSYgS0cryyty1Fk/edit#gid=0)","0"
+"FTJ2023-388","Functional Testing June 2023","Star","Add Customer: Поле Address не имеет названия","Andrei Pomakho","16 Jul 2023 15:22","16 Jul 2023 15:28",,"Major","Bug","Open","Unassigned","Unscheduled","Windows 11 Version 22H2. Edge 114.0.1823.67 (Official build) (64-bit)","**STR:**
+
+1. Перейти на сайт <https://demo.guru99.com/telecom/billing.php>
+2. Кликнуть по кнопке Add Customer
+3. Найти поле Address
+
+**ACT:**
+
+Поле Address не имеет названия
+
+
+
+**EXP:**
+
+Поле Address имеет название и подсказку внутри повторяющую название
+
+
+
+Согласно требованиям (Страница Add Customer п.5): [Требования - Google Таблицы](https://docs.google.com/spreadsheets/d/17pDHGwkAFIrDY8UlfVdkKrw2lv6KFSYgS0cryyty1Fk/edit#gid=0)","0"
+"FTJ2023-389","Functional Testing June 2023","Star","Add Customer: Поле Mobile Number не имеет названия","Andrei Pomakho","16 Jul 2023 15:27","16 Jul 2023 15:27",,"Major","Bug","Open","Unassigned","Unscheduled","Windows 11 Version 22H2. Edge 114.0.1823.67 (Official build) (64-bit)","**STR:**
+
+1. Перейти на сайт <https://demo.guru99.com/telecom/billing.php>
+2. Кликнуть по кнопке Add Customer
+3. Найти поле Mobile Number
+
+**ACT:**
+
+Поле Mobile Number не имеет названия
+
+
+
+**EXP:**
+
+Поле Mobile Number имеет название и подсказку внутри повторяющую название
+
+
+
+Согласно требованиям (Страница Add Customer п.5): [Требования - Google Таблицы](https://docs.google.com/spreadsheets/d/17pDHGwkAFIrDY8UlfVdkKrw2lv6KFSYgS0cryyty1Fk/edit#gid=0)","0"
+"FTJ2023-384","Functional Testing June 2023","Star","Главная страница: отсутствует кнопка ""Delete Customer""","Andrei Pomakho","16 Jul 2023 14:27","16 Jul 2023 14:28",,"Critical","Bug","Open","Unassigned","Unscheduled","Windows 11 Version 22H2. Edge 114.0.1823.67 (Official build) (64-bit)","**STR:**
+
+1. Перейти на главную страницу <https://demo.guru99.com/telecom/billing.php>
+
+
+
+**ACT:**
+
+Среди основных кнопок отсутствует кнопка ""Delete Customer""
+
+
+
+**EXP:**
+
+На главной странице имеется кнопка ""Delete Customer""
+
+
+
+согласно требованиям (Главная страница п.3): [Требования - Google Таблицы](https://docs.google.com/spreadsheets/d/17pDHGwkAFIrDY8UlfVdkKrw2lv6KFSYgS0cryyty1Fk/edit#gid=0)","0"
+"FTJ2023-383","Functional Testing June 2023","Star","Гамбургер-меню: отсутствует кнопка ""Delete Customer""","Andrei Pomakho","16 Jul 2023 14:12","16 Jul 2023 14:27",,"Critical","Bug","Open","Unassigned","Unscheduled","Windows 11 Version 22H2. Edge 114.0.1823.67 (Official build) (64-bit)","**STR:**
+
+1. Перейти на главную страницу <https://demo.guru99.com/telecom/billing.php>
+2. Нажать на кнопку гамбургер-меню
+
+
+
+**ACT:** 
+
+отсутствует кнопка ""Delete Customer"" в боковом меню
+
+
+
+**EXP:** 
+
+наличие кнопки ""Delete Customer"" в боковом меню
+
+
+
+согласно требованиям (Главная страница п.5): [Требования - Google Таблицы](https://docs.google.com/spreadsheets/d/17pDHGwkAFIrDY8UlfVdkKrw2lv6KFSYgS0cryyty1Fk/edit#gid=0)
+
+
+","0"
+"FTJ2023-382","Functional Testing June 2023","Star","Гамбургер-меню: Неправильное название кнопки ""Add Tariff Plan""","Andrei Pomakho","16 Jul 2023 14:02","16 Jul 2023 14:17",,"Minor","Bug","Open","Unassigned","Unscheduled","Windows 11 Version 22H2. Edge 114.0.1823.67 (Official build) (64-bit)","**STR:**
+
+1. Перейти на главную страницу [Guru99 Telecom Billing](https://demo.guru99.com/telecom/billing.php)
+2. Кликнуть по иконке гамбургер меню
+
+**ACT:**
+
+Кнопка ""Add Tariff Plans"" в боковом меню
+
+
+
+**EXP:**
+
+Кнопка ""Add Tariff Plan"" в боковом меню
+
+
+
+согласно требованиям (Главная страница п.5): [Требования - Google Таблицы](https://docs.google.com/spreadsheets/d/17pDHGwkAFIrDY8UlfVdkKrw2lv6KFSYgS0cryyty1Fk/edit#gid=0)
+
+
+","0"
